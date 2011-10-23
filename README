@@ -1,0 +1,5 @@
+This project, in collaboration with UCSC (Santa Cruz) is the use of electronic device to reproduct the behaviour of a calendar, for elderly people.
+The app let them to make appointments, by writing on the device or recording their voices. 
+A picture is also taken to identify who has made the appointment, for sociological purpose.
+
+Note : the code is unfortunately not really clean (lot of redundancy/ bad access to variables and so on.. I have to work on it..). It is also not representative of how I usually do my code..in a much cleaner way.

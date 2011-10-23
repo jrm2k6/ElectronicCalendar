@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/dtn-dt/!svn/ver/66/ElectronicCalendar/res/layout
+END
+row_appointment_taking_choice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/dtn-dt/!svn/ver/64/ElectronicCalendar/res/layout/row_appointment_taking_choice.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dtn-dt/!svn/ver/50/ElectronicCalendar/res/layout/main.xml
+END
+cell_calendar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/dtn-dt/!svn/ver/47/ElectronicCalendar/res/layout/cell_calendar.xml
+END
+canvas_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dtn-dt/!svn/ver/66/ElectronicCalendar/res/layout/canvas_view.xml
+END
+row_audio_appointment_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/dtn-dt/!svn/ver/66/ElectronicCalendar/res/layout/row_audio_appointment_list.xml
+END
+dialog_appointment_audio_recording.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/dtn-dt/!svn/ver/66/ElectronicCalendar/res/layout/dialog_appointment_audio_recording.xml
+END
+dialog_appointment_taking_choice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/dtn-dt/!svn/ver/64/ElectronicCalendar/res/layout/dialog_appointment_taking_choice.xml
+END
+audio_appointment_media_player.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/dtn-dt/!svn/ver/65/ElectronicCalendar/res/layout/audio_appointment_media_player.xml
+END

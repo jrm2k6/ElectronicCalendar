@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="android.ec" android:versionCode="1" android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="10" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".GeneratorCalendar"
+			android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			>
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+
+		</activity>
+		<activity android:name=".FingerPaint" android:label="Dialog"
+			android:theme="@android:style/Theme.Dialog"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".AppointmentTakingChoice" android:label="Choose the method you want"
+			android:theme="@android:style/Theme.Dialog"
+			android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name=".AppointmentAudioRecording" android:label="Record your appointment"
+			android:theme="@android:style/Theme.Dialog"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".AppointmentManager" android:label="Details"
+			android:theme="@android:style/Theme.Holo.Dialog"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".AppointmentAudioDisplaying" android:label="Listen your audio appointment"
+			android:theme="@android:style/Theme.Dialog"
+			android:screenOrientation="portrait">
+		</activity>
+	</application>
+
+
+</manifest>

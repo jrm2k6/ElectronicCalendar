@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:id="@+id/fl_total"
+	android:layout_width="fill_parent" android:visibility="visible">
+	<android.ec.AppointmentCreation android:id="@+id/DrawViewId"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+	</android.ec.AppointmentCreation>
+	-
+	<android.ec.AppointmentDisplaying
+		android:id="@+id/DrawDayAppointmentId" android:layout_height="fill_parent"
+		android:layout_width="fill_parent">
+
+	</android.ec.AppointmentDisplaying>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:orientation="vertical"
+		android:gravity="bottom">
+		<Button android:layout_height="wrap_content" android:text="Listen audio appointments"
+			android:gravity="center" android:id="@+id/bt_ListenAudioAppointment"
+			android:layout_width="fill_parent" android:layout_gravity="bottom"
+			android:visibility="invisible">
+		</Button>
+		<Button android:layout_height="wrap_content" android:text="Create"
+			android:gravity="center" android:id="@+id/bt_Appointment"
+			android:layout_width="fill_parent" android:layout_gravity="bottom">
+		</Button>
+		
+		<SurfaceView 
+			android:id="@+id/sfv_canvasview_snapshot"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+		>
+		</SurfaceView>
+
+	</LinearLayout>
+</FrameLayout> 
+
